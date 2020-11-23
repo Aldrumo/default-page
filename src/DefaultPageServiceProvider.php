@@ -26,7 +26,7 @@ class DefaultPageServiceProvider extends ServiceProvider
 
     protected function loadViews()
     {
-        $this->loadViewsFrom(__DIR__ . '/../resources/views', 'aldrumo-defaults');
+        $this->loadViewsFrom(__DIR__ . '/../resources/views', 'AldrumoDefaults');
 
         $this->publishes([
             __DIR__ . '/../resources/views' => resource_path('views/vendor/aldrumo-defaults'),
