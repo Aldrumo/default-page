@@ -1,6 +1,6 @@
 <?php
 
-namespace Cms\Defaults\Providers;
+namespace Aldrumo\DefaultPage;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -20,16 +20,16 @@ class DefaultPageServiceProvider extends ServiceProvider
     protected function loadAssets()
     {
         $this->publishes([
-            __DIR__ . '/../../resources/assets' => public_path('vendor/cms-defaults'),
-        ], 'cms-assets');
+            __DIR__ . '/../resources/assets' => public_path('vendor/aldrumo-defaults'),
+        ], 'aldrumo-public');
     }
 
     protected function loadViews()
     {
-        $this->loadViewsFrom(__DIR__ . '/../../resources/views', 'cms-defaults');
+        $this->loadViewsFrom(__DIR__ . '/../resources/views', 'aldrumo-defaults');
 
         $this->publishes([
-            __DIR__ . '/../../resources/views' => resource_path('views/vendor/cms-defaults'),
+            __DIR__ . '/../resources/views' => resource_path('views/vendor/aldrumo-defaults'),
         ]);
     }
 }
