@@ -17,7 +17,7 @@
             <p class="text-md">This is the default Aldrumo page, you can now begin setting up your pages via the admin panel.</p>
 
             <div class="mt-10">
-                <a href="#" class="mr-8">
+                <a href="{{ route('admin.dashboard') }}" class="mr-8">
                     <i class="far fa-edit"></i>
                     Admin Panel
                 </a>
@@ -27,7 +27,7 @@
                     Documentation
                 </a>
 
-                <a href="#" class="mr-8">
+                <a href="https://github.com/Aldrumo" class="mr-8">
                     <i class="fab fa-github"></i>
                     Github
                 </a>
