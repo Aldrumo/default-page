@@ -20,7 +20,7 @@ class DefaultPageServiceProvider extends ServiceProvider
     protected function loadAssets()
     {
         $this->publishes([
-            __DIR__ . '/../resources/assets' => public_path('vendor/aldrumo-defaults'),
+            __DIR__ . '/../resources/assets' => public_path('aldrumo/default-page'),
         ], 'aldrumo-public');
     }
 

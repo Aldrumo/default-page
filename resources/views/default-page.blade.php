@@ -7,7 +7,7 @@
         <meta name="author" content="Mike Barlow">
         <meta name="description" content="Aldrumo is a modular Laravel CMS">
         <link href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans:400,700&display=swap" rel="stylesheet">
-        <link href="vendor/aldrumo-defaults/css/app.css" rel="stylesheet">
+        <link href="aldrumo/default-page/css/app.css" rel="stylesheet">
     </head>
 
     <body class="bg-gray-200 font-sans">
