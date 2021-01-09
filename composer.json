@@ -21,5 +21,9 @@
                 "Aldrumo\\DefaultPage\\DefaultPageServiceProvider"
             ]
         }
+    },
+    "require": {
+        "blade-ui-kit/blade-heroicons": "9999999-dev",
+        "owenvoke/blade-fontawesome": "9999999-dev"
     }
 }
