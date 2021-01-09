@@ -23,26 +23,26 @@
         <div class="container mx-auto mt-40 text-center">
             <h1 class="text-5xl font-display mb-6">Aldrumo</h1>
 
-            <p class="text-md">This is the default Aldrumo page, you can now begin setting up your pages via the admin panel.</p>
+            <p class="text-lg">This is the default Aldrumo page, you can now begin setting up your pages via the admin panel.</p>
 
-            <div class="mt-10">
-                <a href="{{ route('admin.dashboard') }}" class="mr-8">
-                    <x-heroicon-s-pencil-alt class="w-4 h-4"/>
+            <div class="mt-10 mx-auto w-full flex text-base">
+                <a href="{{ route('admin.dashboard') }}" class="mr-8 flex flex-grow justify-end hover:text-indigo-600">
+                    <x-heroicon-s-pencil-alt class="w-4 h-4 mr-2 mt-1"/>
                     Admin Panel
                 </a>
 
-                <a href="#" class="mr-8">
-                    <x-heroicon-s-support class="w-4 h-4"/>
+                <a href="#" class="mr-8 flex hover:text-indigo-600">
+                    <x-heroicon-s-support class="w-4 h-4 mr-2 mt-1"/>
                     Documentation
                 </a>
 
-                <a href="https://github.com/Aldrumo" class="mr-8">
-                    <x-fab-github class="w-4 h-4"/>
+                <a href="https://github.com/Aldrumo" class="mr-8 flex hover:text-indigo-600">
+                    <x-fab-github class="w-4 h-4 mr-2 mt-1"/>
                     Github
                 </a>
 
-                <a href="#" class="mr-8">
-                    <x-fab-twitter class="w-4 h-4"/>
+                <a href="#" class="mr-8 flex flex-grow hover:text-indigo-600">
+                    <x-fab-twitter class="w-4 h-4 mr-2 mt-1"/>
                     Twitter
                 </a>
             </div>
