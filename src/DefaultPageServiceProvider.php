@@ -13,18 +13,9 @@ class DefaultPageServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->loadViews();
-        $this->loadAssets();
+        $this->bootViews();
     }
-
-    protected function loadAssets()
-    {
-        $this->publishes([
-            __DIR__ . '/../resources/assets' => public_path('aldrumo/default-page'),
-        ], 'aldrumo-public');
-    }
-
-    protected function loadViews()
+    protected function bootViews()
     {
         $this->loadViewsFrom(__DIR__ . '/../resources/views', 'AldrumoDefaults');
 
