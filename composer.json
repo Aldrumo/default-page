@@ -14,7 +14,6 @@
             "Aldrumo\\DefaultPage\\": "src/"
         }
     },
-    "minimum-stability": "dev",
     "extra": {
         "laravel": {
             "providers": [
